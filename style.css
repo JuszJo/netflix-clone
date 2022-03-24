@@ -1,0 +1,143 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#wholepage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#headercont{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+#header {
+    position: relative;
+    height: 60px;
+    margin: 0 53px;
+}
+a {
+    color: white;
+    margin-top: 7px;
+    background-color: rgb(219, 0, 0);
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
+    float: right;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+a:hover {
+    background-color: rgb(236, 20, 20);
+    transform: scale(1.1);
+}
+a:visited {
+    color: white;
+}
+#logo {
+    position: relative;
+    height: 47px;
+    width: 169px;
+    margin-top: 4px;
+}
+#firstsect {
+    position: relative;
+    width: 100%;
+    height: 760px;
+    z-index: 100;
+}
+#gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,.9) 0,rgba(0,0,0,0) 55%,rgba(0,0,0,.8) 100%);
+}
+#backimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(65%);
+    object-fit: cover;
+    max-width: 100%;
+}
+#introwrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introcont {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+#intro {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    line-height: 71px;
+}
+#intro2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.625rem;
+}
+#ready {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+#form { 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 72px;
+}
+#fcont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#input {
+    width: 495px;
+    height: 66px;
+}
+#submit {
+    background-color: rgb(219, 0, 0);
+    color: white;
+    font-size: 2rem;
+    border-style: none;
+    cursor: pointer;
+    width: 238px;
+    height: 72px;
+    padding: 0;
+    margin-left: -3.5px;
+}
+#submit:hover {
+    background-color: rgb(236, 20, 20);
+}
